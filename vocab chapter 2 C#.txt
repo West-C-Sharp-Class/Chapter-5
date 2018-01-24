@@ -1,0 +1,38 @@
+Chapter 2 C# Quiz
+
+Constant
+Literal Constant
+Variable
+Data Type
+Unicode
+Assignment
+Initialization
+Assignment Operator
+Variable Declaration
+Concatenate
+Format String
+Integral data types
+Integer
+Floating-Point
+Float
+Operands
+Arithmetic Operators
+Scientific Notation
+Format String
+Double
+Decimal
+Binary Operators
+Operator Precedence
+add and assign operator
+prefix increment operator
+decrement operator
+Lexically
+String
+Comparison operator
+Bool
+Boolean Variable
+Immutable
+Named Constant
+Interactive Program
+Prompt
+Parse
