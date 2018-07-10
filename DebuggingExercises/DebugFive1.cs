@@ -13,7 +13,7 @@ class DebugFive1
 
       Write("Please enter your password ");
       password = Console.ReadLine();
-      while(password != PASS1 || password != PASS2 || password != PASS3)
+      while(password != PASS1 | password != PASS2 | password != PASS3)
          WriteLine("Invalid password. Please enter again. ");
       password = ReadLine();
       WriteLine("Valid password");
