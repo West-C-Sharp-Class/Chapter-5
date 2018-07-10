@@ -13,11 +13,11 @@ class DebugFive2
       double price;
       string stockNum;
       Write("Please enter the stock number of the item you want ");
-      stockNum = ReadLine();
+      stockNum = Read();
       while(stockNum != ITEM209 || stockNum != ITEM312 || stockNum != ITEM414)
       {
          WriteLine("Invalid stock number. Please enter again. ");
-         stockNum = ConsoleReadLine();
+         stock = ConsoleReadLine();
       }
       if(stockNum == ITEM209)
          price = PRICE209;
@@ -26,6 +26,6 @@ class DebugFive2
             price = PRICE414;
          else
             price = PRICE312;
-      WriteLine("The price for item # {0} is {1}}", stockNum, price.ToString("C"));
+      WriteLine("The price for item # {0} is {1}}", stockNum, price.ToString("n"));
    }
 }
